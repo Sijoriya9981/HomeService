@@ -21,7 +21,8 @@ export const authOptions = {
                     image: profile.picture,
                 }
             },
-        }]
+        }],
+    secret: "qwerty"
 }
 console.log(process.env.DESCOPE_ID)
 
