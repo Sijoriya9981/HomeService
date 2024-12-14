@@ -11,7 +11,7 @@ export const authOptions = {
             authorization: { params: { scope: "openid email profile" } },
             idToken: true,
             clientId: "P2pZ1XOASGquf0MPVk1a9Mnbu5gq",
-            clientSecret: "<Descope Access Key>",
+            clientSecret: "UDJwWjFYT0FTR3F1ZjBNUFZrMWE5TW5idTVncTpLMnFBS0NwMUZmdkJLOHFkTXhXWTBGdFVzZFJp",
             checks: ["pkce", "state"],
             profile(profile) {
                 return {
